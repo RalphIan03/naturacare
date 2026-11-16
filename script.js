@@ -22,7 +22,7 @@
   document.addEventListener('click', (event) => {
     if (!event.target.closest('.nav-wrap')) closeMenu();
   });
-  window.matchMedia('(min-width: 761px)').addEventListener('change', closeMenu);
+  window.matchMedia('(min-width: 901px)').addEventListener('change', closeMenu);
   const year = document.querySelector('#year');
   year.textContent = new Date().getFullYear();
   if ('IntersectionObserver' in window) {
