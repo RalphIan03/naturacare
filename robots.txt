@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://naturacare-wellness-digos.rarfu.chatgpt.site/sitemap.xml
